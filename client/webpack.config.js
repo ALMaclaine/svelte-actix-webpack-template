@@ -47,7 +47,8 @@ module.exports = {
 						options: {
 							importLoaders: 1
 						}
-					}
+					},
+					'postcss-loader'
 				]
 			},
 			{
