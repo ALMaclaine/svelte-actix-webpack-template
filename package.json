@@ -1,0 +1,19 @@
+{
+  "scripts": {
+    "start:server": "node index.js",
+    "start": "concurrently 'cargo run' 'cd client; npm run dev;'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ALMaclaine/svelte-actix-webpack-template.git"
+  },
+  "author": "Alessandro Maclaine",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ALMaclaine/svelte-actix-webpack-template/issues"
+  },
+  "homepage": "https://github.com/ALMaclaine/svelte-actix-webpack-template#readme",
+  "dependencies": {
+    "concurrently": "^6.0.0"
+  }
+}
